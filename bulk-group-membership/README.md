@@ -51,4 +51,4 @@ python .\bulk-add-group.py -f "pathToImportData\importData.csv" -a "https://your
 ```
 
 ## Feedback ##
-Please direct all complaints to carrie.willis@teamdynamix.com.
+Please direct all feedback to carrie.willis@teamdynamix.com.
