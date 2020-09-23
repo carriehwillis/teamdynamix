@@ -23,6 +23,7 @@ python -m pip install pandas
 **CSV files must be in comma-separated format. Semicolons, pipes or any other delimiter are not supported.**
 
 The CSV should include these columns, in this order:
+
 **Name (Required)**</br>
 *Data Type: String*</br>
 The name of the group
