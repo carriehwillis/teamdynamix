@@ -4,7 +4,7 @@
 This is **not an official TeamDynamix script** written by TeamDynamix engineers or developers. This was written by a non-developer to supplement the TDX-built and TDX-sanctioned scripts at https://www.github.com/TeamDynamix.
 
 ## Overview ##
-This Python script will read user data from a .CSV file, connect to the TeamDynamix API, and create groups based on the parameters in this .CSV via the API. Responses from the API are logged to a CSV file that is automatically created.
+This Python script will read user data from a .CSV file, connect to the TeamDynamix API, and edit groups based on the parameters in this .CSV via the API. Responses from the API are logged to a CSV file that is automatically created.
 
 ## TeamDynamix Version Support ##
 This script has been tested and validated on all TeamDynamix instances version **11.0 and higher.** If you run this on an earlier version of TeamDynamix, please let me know and I'll update the documentation!
