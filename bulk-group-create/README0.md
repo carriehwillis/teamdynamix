@@ -23,24 +23,24 @@ python -m pip install pandas
 **CSV files must be in comma-separated format. Semicolons, pipes or any other delimiter are not supported.**
 
 The CSV should include these columns, in this order:
-**Name (Required)**
-*Data Type: String*
+**Name (Required)**</br>
+*Data Type: String*</br>
 The name of the group
 
-**Description**
-*Data Type: String*
+**Description**</br>
+*Data Type: String*</br>
 Optional description for the group. Max 1,000 characters.
 
-**Is Active**
-*Data Type: Boolean*
+**Is Active**</br>
+*Data Type: Boolean*</br>
 Whether or not the group is active. Defaults to True.
 
-**External ID**
-*Data Type: String*
+**External ID**</br>
+*Data Type: String*</br>
 An alternate ID or code used to reference the group.
 
-**Platform Applications**
-*Data Type: List of int*
+**Platform Applications**</br>
+*Data Type: List of int*</br>
 A comma-separated list of application IDs. Only ticketing applications are currently supported. You can find the ticketing application ID in TDAdmin under Applications.
 
 ## Script Parameters ##
@@ -72,7 +72,7 @@ The Group ID of the group you want to add these users to. Currently only accepts
 
 ## Usage Example ##
 ```python
-python .\bulk-add-group.py -f "pathToImportData\importData.csv" -a "https://yourTeamDynamixDomain/TDWebApi/" -b "BEIDFromTDAdmin" -w "WSKeyFromTDAdmin" -g 123
+python .\bulk-group-create.py -f "pathToImportData\importData.csv" -a "https://yourTeamDynamixDomain/TDWebApi/" -b "BEIDFromTDAdmin" -w "WSKeyFromTDAdmin" -g 123
 ```
 
 ## Feedback ##
